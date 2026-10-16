@@ -32,9 +32,9 @@ def playing_games():
         count+=1
         if p1>p2:
             gamescores[count] = [player1]
-        elif bob_score>alice_score:
+        elif p2>p1:
             gamescores[count] = [player2]
-        elif alice_score==bob_score:
+        elif alicp1e_score==p2:
             gamescores[count] = ["Draw"]
     return gamescores
 
