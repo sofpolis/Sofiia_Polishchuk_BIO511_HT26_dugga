@@ -34,7 +34,7 @@ def playing_games():
             gamescores[count] = [player1]
         elif p2>p1:
             gamescores[count] = [player2]
-        elif alicp1e_score==p2:
+        elif p1==p2:
             gamescores[count] = ["Draw"]
     return gamescores
 
