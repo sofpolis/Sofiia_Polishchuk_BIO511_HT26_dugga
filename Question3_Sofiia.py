@@ -10,10 +10,9 @@ cnv = pd.read_csv("cnv_data.csv")
 #making a scatterplot with sns
 fig1 = sns.scatterplot(cnv, x="position_mb", y="log2_ratio")
 plt.tight_layout()
-plt.savefig("fig1.png")
+plt.savefig("fig1.png") #saving the plot to a .png file
 
 #c)
-
 input_file = sys.argv[1] #the input file should be stated by the user as first argument when running the script
 output_file = sys.argv[2] #the output file should be stated by the user as second argument when running the script
 
